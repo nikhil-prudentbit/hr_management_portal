@@ -1,0 +1,83 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img{
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-content{
+    height: 325px;
+    width: 340px;
+    position: absolute;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-content .form {
+    display: block;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-content .form label{
+    display: block;
+    margin-top: 15px;
+}
+
+.login-content .form input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 7, 26);
+}
+
+.login-content .form input:focus {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 7, 26);
+    ;
+}
+
+.login-content .form button{
+    cursor: pointer;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0,7,26);
+    color: white;
+}
+
+.login-content .forgot{
+    margin: 5px 0px;
+    color: rgba(0, 7, 26);
+    cursor: pointer;
+    font-size: 12px;
+    text-align: end;
+}
+
+.login-content .register-statement{
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-content .register-statement .register-button{
+    color: rgba(0, 7, 26);
+    cursor: pointer;
+    font-weight: 600;
+}

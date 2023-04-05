@@ -1,0 +1,15 @@
+.personal-details {
+    display: block;
+}
+
+.personal-details .personal-details-content {
+    width: 250px;
+}
+
+.personal-details-content .form{
+    width: 250px;
+}
+
+.personal-details-content .form input{
+    display: block;
+}
